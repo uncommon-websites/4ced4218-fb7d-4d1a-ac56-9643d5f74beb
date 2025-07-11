@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+	title="Your workflows, without the busywork"
+	subtitle="Automate manual tasks right from your screen."
+	imageSrc="/generated/image-a-confident-and-successful-cto-engineeri.webp"
+	centered={true}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders" 
+	logoUrls={[
+		'https://logo.clearbit.com/stripe.com',
+		'https://logo.clearbit.com/notion.so',
+		'https://logo.clearbit.com/figma.com',
+		'https://logo.clearbit.com/discord.com'
+	]}
+/>
 
 <Summary
 	generating
